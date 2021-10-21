@@ -1,0 +1,24 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+.v-text-field.v-text-field--enclosed .v-text-field__details {
+  padding: 0;
+}
+
+.theme--dark .v-bar--underline.theme--light,
+.theme--light .v-bar--underline.theme--light {
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.theme--light .v-bar--logo {
+  width: 240px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+}
